@@ -1,0 +1,19 @@
+#spring
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.133.128:3306/leesite?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: root
+    password: 123456
+
+#mybatis-plus:
+#  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+#
+#logback:
+#  logDir: log/dev
+#
+#logging:
+#  level:
+#    com.fengwenyi.mp3demo.service.impl: trace
+#    com.fengwenyi.mp3demo..controller: trace

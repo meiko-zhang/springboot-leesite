@@ -9,7 +9,7 @@ import com.meiko.leesite.demo.domain.User;
  * </p>
  *
  * @author meiko-zahng
- * @since 2018-12-08
+ * @since 2018-12-09
  */
 public interface UserMapper extends BaseMapper<User> {
 

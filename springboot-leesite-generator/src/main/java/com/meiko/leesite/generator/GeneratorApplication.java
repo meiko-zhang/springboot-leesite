@@ -85,11 +85,11 @@ public class GeneratorApplication {
                 .setTablePrefix(packageConfig.getModuleName() + "_")  //表前缀
 //                .setFieldPrefix()  //字段前缀
 //                .setSuperEntityClass("")  //自定义继承的Entity类全称，带包名
-                .setSuperEntityColumns("id") //自定义基础的Entity类，公共字段
+//                .setSuperEntityColumns("id") //自定义基础的Entity类，公共字段
                 .setSuperMapperClass("com.meiko.leesite.generator.base.mapper.SuperMapper")  //自定义继承的Mapper类全称，带包名
 //                .setSuperServiceClass("com.baomidou.mybatisplus.extension.service.IService")  //自定义继承的Service类全称，带包名
 //                .setSuperServiceImplClass("com.baomidou.mybatisplus.extension.service.impl.ServiceImpl")  //自定义继承的ServiceImpl类全称，带包名
-//                .setSuperControllerClass("com.baomidou.mybatisplus.extension.api.ApiController")  //自定义继承的Controller类全称，带包名
+                .setSuperControllerClass("com.baomidou.mybatisplus.extension.api.ApiController")  //自定义继承的Controller类全称，带包名
                 .setInclude(scanner("表名"))  //需要包含的表名，允许正则表达式（与exclude二选一配置）
 //                .setExclude("")  //需要排除的表名，允许正则表达式
 //                .setEntityColumnConstant(false) //【实体】是否生成字段常量（默认 false）

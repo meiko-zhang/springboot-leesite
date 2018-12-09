@@ -3,6 +3,7 @@
 /logback/
 **/target/
 **/src/test
+/log/
 
 ### STS ###
 .apt_generated

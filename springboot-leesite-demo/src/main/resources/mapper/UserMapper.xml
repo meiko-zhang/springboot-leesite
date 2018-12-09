@@ -4,16 +4,15 @@
 
     <!-- 通用查询映射结果 -->
     <resultMap id="BaseResultMap" type="com.meiko.leesite.demo.domain.User">
-        <result column="id" property="id"/>
-        <result column="name" property="name"/>
-        <result column="age" property="age"/>
-        <result column="email" property="email"/>
+        <id column="id" property="id" />
+        <result column="name" property="name" />
+        <result column="age" property="age" />
+        <result column="email" property="email" />
     </resultMap>
 
     <!-- 通用查询结果列 -->
     <sql id="Base_Column_List">
-        id,
-        name, age, email
+        id, name, age, email
     </sql>
 
 </mapper>

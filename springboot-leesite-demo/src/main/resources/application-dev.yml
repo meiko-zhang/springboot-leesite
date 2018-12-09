@@ -6,14 +6,14 @@ spring:
     username: root
     password: 123456
 
-#mybatis-plus:
-#  configuration:
-#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
-#
-#logback:
-#  logDir: log/dev
-#
-#logging:
-#  level:
-#    com.fengwenyi.mp3demo.service.impl: trace
-#    com.fengwenyi.mp3demo..controller: trace
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+logback:
+  logDir: log/dev
+
+logging:
+  level:
+    com.meiko.leesite.demo.service.impl: trace
+    com.meiko.leesite.demo.controller: trace

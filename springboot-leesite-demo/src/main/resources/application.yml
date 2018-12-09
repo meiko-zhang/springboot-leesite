@@ -7,7 +7,7 @@ spring:
     name: springboot-leesite-demo
 
   profiles:
-    active: dev
+    active: test
 
   # druid DATABASE CONFIG https://github.com/alibaba/druid/wiki/DruidDataSource%E9%85%8D%E7%BD%AE
   datasource:
@@ -41,3 +41,8 @@ mybatis-plus:
   type-aliases-package: com.meiko.leesite.demo.domain
   # 启动时是否检查 MyBatis XML 文件的存在，默认不检查
   check-config-location: true
+
+
+logback:
+  appName: demo
+  fileType: log
